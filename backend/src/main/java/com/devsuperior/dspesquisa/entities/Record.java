@@ -1,9 +1,9 @@
-package com.devsupeior.dspesquisa.entities;
+package com.devsuperior.dspesquisa.entities;
 
-import jakarta.persistence.*;
-
+import javax.persistence.*;
 import java.io.Serializable;
 import java.time.Instant;
+
 
 @Entity
 @Table(name = "tb_record")

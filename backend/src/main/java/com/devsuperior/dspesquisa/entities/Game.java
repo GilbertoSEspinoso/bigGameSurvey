@@ -1,8 +1,8 @@
-package com.devsupeior.dspesquisa.entities;
+package com.devsuperior.dspesquisa.entities;
 
-import com.devsupeior.dspesquisa.entities.enums.Platform;
-import jakarta.persistence.*;
+import com.devsuperior.dspesquisa.entities.enums.Platform;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;

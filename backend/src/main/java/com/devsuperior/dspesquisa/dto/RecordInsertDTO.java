@@ -1,4 +1,4 @@
-package com.devsupeior.dspesquisa.dto;
+package com.devsuperior.dspesquisa.dto;
 
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
-package com.devsupeior.dspesquisa.repositories;
+package com.devsuperior.dspesquisa.repositories;
 
-import com.devsupeior.dspesquisa.entities.Game;
+import com.devsuperior.dspesquisa.entities.Game;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

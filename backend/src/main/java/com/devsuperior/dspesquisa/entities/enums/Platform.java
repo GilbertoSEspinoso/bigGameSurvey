@@ -1,4 +1,4 @@
-package com.devsupeior.dspesquisa.entities.enums;
+package com.devsuperior.dspesquisa.entities.enums;
 
 public enum Platform {
     PC, PLAYSTATION, XBOX;

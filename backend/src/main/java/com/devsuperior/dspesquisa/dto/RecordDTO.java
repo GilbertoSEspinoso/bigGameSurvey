@@ -1,7 +1,7 @@
-package com.devsupeior.dspesquisa.dto;
+package com.devsuperior.dspesquisa.dto;
 
-import com.devsupeior.dspesquisa.entities.Record;
-import com.devsupeior.dspesquisa.entities.enums.Platform;
+import com.devsuperior.dspesquisa.entities.Record;
+import com.devsuperior.dspesquisa.entities.enums.Platform;
 
 import java.io.Serializable;
 import java.time.Instant;

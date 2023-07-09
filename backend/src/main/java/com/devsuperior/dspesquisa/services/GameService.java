@@ -1,8 +1,8 @@
-package com.devsupeior.dspesquisa.services;
+package com.devsuperior.dspesquisa.services;
 
-import com.devsupeior.dspesquisa.dto.GameDTO;
-import com.devsupeior.dspesquisa.entities.Game;
-import com.devsupeior.dspesquisa.repositories.GameRepository;
+import com.devsuperior.dspesquisa.dto.GameDTO;
+import com.devsuperior.dspesquisa.entities.Game;
+import com.devsuperior.dspesquisa.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
