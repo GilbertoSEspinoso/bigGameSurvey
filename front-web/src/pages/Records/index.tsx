@@ -3,20 +3,27 @@ import axios from 'axios'; // é o que faz a ponte com o http
 import {RecordsResponse} from'./types';
 import './styles.css';
 import { formatDate } from './helpers';
-
+import Pagination from './Pagination';
 
 const BASE_URL = 'http://localhost:8080'
 
-const Records = () => {
-  const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>(); 
+const Records = () => {  
+  
   // useState é um Hooks que faz o estado dos meus dados
   //integração com API
   // essa função trata do ciclo de vida do componente
   // O que estiver aqui dentro será executado assim que esse componente inicializar
+  const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>(); 
+  const [activePage, setActivePage] = useState(0); //componente de paginção
+
   useEffect(() => {
     //chamando o endpoint
-    axios.get(`${BASE_URL}/records?linesPerPage=12`).then(response => setRecordsResponse(response.data) );
-  }, []);
+    axios.get(`${BASE_URL}/records?linesPerPage=12&page=${activePage}`).then(response => setRecordsResponse(response.data));
+  }, [activePage]);
+
+  const handlePageChange =(index: number) => {
+    setActivePage(index);
+  }
 
   return (
     <div className='page-container'>
@@ -44,6 +51,10 @@ const Records = () => {
           ))}
         </tbody>
       </table>
+      <Pagination 
+        activePage={activePage}
+        goToPage={handlePageChange}
+        totalPages={recordsResponse?.totalPages}/>
     </div>
   );
 }

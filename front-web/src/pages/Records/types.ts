@@ -1,6 +1,6 @@
 export type RecordsResponse ={
   content: RecordItem[];
-  tatalPages: number;
+  totalPages: number;
 }
  export type RecordItem = {
   id: number,
