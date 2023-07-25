@@ -6,25 +6,27 @@
 Big Game Survey é uma aplicação full stack web e mobile que consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
 ## Layout mobile (...em construção)
-<div style="text-align: center;">
-    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey-mobile_intro_resized.jpg?raw=true" alt="mobile-intro" style="height: auto;">
-    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey-mobile_form_resized.jpg?raw=true" alt="mobile-form" style="height: auto;">
-</div>
 
+<p align="center">
+  <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey-mobile_intro_resized.jpg?raw=true" alt="Descrição da imagem">
+  <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey-mobile_form_resized.jpg?raw=true" alt="Descrição da imagem">
+</p>
             
 ## Layout web
-<div style="text-align: center;">
-    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey_lista_resized.jpg?raw=true" alt="big-game-survey_lista" style="height: auto;">
-</div>
+<p align="center">
+  <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey_lista_resized.jpg?raw=true" alt="Descrição da imagem">
+</p>
 
-<div style="text-align: center;">
-    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey_grafico_resized.jpg?raw=true" alt="big-game-survey_grafico" style="height: auto;">
-</div>
+
+<p align="center">
+  <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey_grafico_resized.jpg?raw=true" alt="Descrição da imagem">
+</p>
+
 
 ## Modelo conceitual
-<div style="text-align: center;">
-    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/modelo-conceitual_resized.png?raw=true" alt="modelo-conceitual" style="height: auto;">
-</div>
+<p align="center">
+  <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/modelo-conceitual_resized.png?raw=true" alt="Descrição da imagem">
+</p>
 
 # Tecnologias utilizadas
 ## Back end
