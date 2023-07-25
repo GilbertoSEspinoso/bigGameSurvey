@@ -1,23 +1,30 @@
 # Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)]() 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/GilbertoSEspinoso/bigGameSurvey/blob/main/LICENSE) 
 
 # Sobre o projeto
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+Big Game Survey é uma aplicação full stack web e mobile que consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+## Layout mobile (...em construção)
+<div style="text-align: center;">
+    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey-mobile_intro_resized.jpg?raw=true" alt="mobile-intro" style="height: auto;">
+    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey-mobile_form_resized.jpg?raw=true" alt="mobile-form" style="height: auto;">
+</div>
 
-## Layout mobile
-![Mobile 1](https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey-mobile_intro_resized.jpg?raw=true)
-![Mobile 2](https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey-mobile_form_resized.jpg?raw=true)
             
 ## Layout web
-![Web 1](https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey_lista_resized.jpg?raw=true)
+<div style="text-align: center;">
+    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey_lista_resized.jpg?raw=true" alt="big-game-survey_lista" style="height: auto;">
+</div>
 
-![Web 2](https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey_grafico_resized.jpg?raw=true)
+<div style="text-align: center;">
+    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/big-game-survey_grafico_resized.jpg?raw=true" alt="big-game-survey_grafico" style="height: auto;">
+</div>
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/modelo-conceitual_resized.png?raw=true)
+<div style="text-align: center;">
+    <img src="https://github.com/GilbertoSEspinoso/assets/blob/main/bigGameSurvey/modelo-conceitual_resized.png?raw=true" alt="modelo-conceitual" style="height: auto;">
+</div>
 
 # Tecnologias utilizadas
 ## Back end
@@ -32,8 +39,8 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 - Apex Charts
 - Expo
 ## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
+- Back end: (...em construção)
+- Front end web: (...em construção)
 - Banco de dados: Postgresql
 
 # Como executar o projeto
