@@ -19,12 +19,14 @@ public class RecordController {
 	@Autowired
 	private RecordService service;
 
+	@CrossOrigin(origins = "http://localhost:3000") //provisório
 	@PostMapping
 	public ResponseEntity<RecordDTO> insert(@RequestBody RecordInsertDTO dto) {
 		RecordDTO newDTO = service.insert(dto);
 		return ResponseEntity.ok().body(newDTO);
 	}
 
+	@CrossOrigin(origins = "http://localhost:3000") //provisório
 	@GetMapping
 	public ResponseEntity<Page<RecordDTO>> findAll(
 			@RequestParam(value = "min", defaultValue = "") String min,
