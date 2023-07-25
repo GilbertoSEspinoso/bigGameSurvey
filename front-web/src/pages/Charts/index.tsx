@@ -49,7 +49,7 @@ const Charts = () => {
               <Filters link='/records' linkText='VER TABELA' />
               <div className='chart-container'>
                 <div className='top-related'>
-                  <h1 className='top-related-title'>Jogos mais votados</h1>
+                  <h1 className='top-related-title'>Os 8 Jogos mais Jogados</h1>
                   <div className='games-container'> 
                   <Chart 
                       options={barOptions}
@@ -64,16 +64,16 @@ const Charts = () => {
                       <div className='platform-chart'>
                           <h2 className='chart-title'>Plataformas</h2>
                           <Chart 
-                          options={{ labels: platformData?.labels}}
-                          type="donut"
-                          series={platformData?.series}
-                          width="350"
+                            options={{ ...pieOptions, labels: platformData?.labels}}
+                            type="donut"
+                            series={platformData?.series}
+                            width="350"
                           />
                       </div>
                       <div className='gender-chart'>
                           <h2 className='chart-title'>Gêneros</h2>
                           <Chart 
-                          options={{ labels: genderData?.labels}}
+                          options={{ ...pieOptions,labels: genderData?.labels}}
                           type="donut"
                           series={genderData?.series}
                           width="350"

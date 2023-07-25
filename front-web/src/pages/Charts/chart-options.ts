@@ -12,8 +12,6 @@ export const pieOptions = {
   },
   dataLabels: {
     enabled: true,
-    offsetX: "100px",
-    offsetY: "100px",
     style: {
       colors: ["#a8dadc", "#ed7947", "#00D4FF", "#ffd6a5"],
       fontSize: "20px",
@@ -23,8 +21,8 @@ export const pieOptions = {
   },
   plotOptions: {
     pie: {
-      customScale: 0.7,
-      expandOnClick: false,
+      customScale: 0.9,
+      expandOnClick: true,
       dataLabels: {
         offset: 60,
       },
@@ -45,9 +43,10 @@ export const barOptions = {
   plotOptions: {
     bar: {
       horizontal: true,
+      borderRadius: 5,
       endingShape: "rounded",
       startingShape: "rounded",
-      barHeight: "60px",
+      barHeight: "40px",
     },
   },
   dataLabels: {
